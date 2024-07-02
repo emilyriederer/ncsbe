@@ -1,0 +1,11 @@
+from,to
+county_id,cd_county
+voter_reg_num,id_voter_county
+election_lbl,dt_election
+election_desc,desc_election
+voting_method,desc_vote_method
+voted_party_cd,cd_vote_party
+pct_label,cd_pct
+pct_description,nm_pct
+ncid,id_voter
+voted_county_id,cd_county_voted

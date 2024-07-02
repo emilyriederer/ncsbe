@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ncsbe"
+version = "0.1.0"
+description = "Extract North Carolina election data"
+authors = ["Emily Riederer"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+polars = "^0.20.14"
+importlib = "^1.0.4"
+requests = "^2.31.0"
+dlt = {extras = ["bigquery"], version = "^0.4.6"}
+pandas = "^2.2.1"
+dbt-duckdb = "^1.7.3"
+scikit-learn = "^1.4.2"
+polars-ds = "^0.3.5"
+matplotlib = "^3.8.4"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

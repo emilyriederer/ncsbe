@@ -1,0 +1,15 @@
+from,to
+county,desc_county
+election_date,dt_election
+precinct,cd_pct
+contest_group_id,id_contest_group
+contest_type,cd_contest_type
+contest_name,nm_contest
+choice,nm_candidate
+choice_party,cd_candidate_party
+vote_for,n_votes_allowed
+election_day,n_vote_eday
+one_stop,n_vote_inev
+absentee_by_mail,n_vote_mail
+provisional,n_vote_provisional
+total_votes,n_vote
